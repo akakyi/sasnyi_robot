@@ -20,6 +20,10 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-amqp")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
+	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
+	implementation("org.springframework.data:spring-data-jpa:2.5.9")
+	// https://mvnrepository.com/artifact/org.telegram/telegrambots
+	implementation("org.telegram:telegrambots:6.5.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.amqp:spring-rabbit-test")
 }
