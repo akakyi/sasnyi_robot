@@ -5,6 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.15.RELEASE"
 	kotlin("jvm") version "1.6.21"
 	kotlin("plugin.spring") version "1.6.21"
+	kotlin("plugin.jpa") version "1.6.10"
 }
 
 group = "notifier.telega"
@@ -22,6 +23,8 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	// https://mvnrepository.com/artifact/org.springframework.data/spring-data-jpa
 	implementation("org.springframework.data:spring-data-jpa:2.5.9")
+	// https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+	implementation("org.hibernate:hibernate-core:5.6.15.Final")
 	// https://mvnrepository.com/artifact/org.telegram/telegrambots
 	implementation("org.telegram:telegrambots:6.5.0")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
