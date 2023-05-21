@@ -13,10 +13,7 @@ class ProcessChatInvasionUseCase(
 
     fun execute(inDto: ProcessChatInvasionInDto) {
         val update = inDto.update
-        val chatMember = update.myChatMember
-        if (chatMember == null) {
-            return
-        }
+        val chatMember = update.myChatMember ?: return
 
         //TODO создавать таски на оповещения о появлении нового канала, дабы в случае проёба пересоздавать мессагу
         val from = chatMember.from
