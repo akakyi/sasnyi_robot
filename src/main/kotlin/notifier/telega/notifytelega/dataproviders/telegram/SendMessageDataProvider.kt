@@ -1,12 +1,11 @@
-package notifier.telega.notifytelega.service
+package notifier.telega.notifytelega.dataproviders.telegram
 
 import notifier.telega.notifytelega.config.SasnyRobot
-import notifier.telega.notifytelega.service.dto.SendMessageInDto
 import org.springframework.stereotype.Service
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 
 @Service
-class SendMessageUseCase(
+class SendMessageDataProvider(
     private val sasnyRobot: SasnyRobot
 ) {
 
