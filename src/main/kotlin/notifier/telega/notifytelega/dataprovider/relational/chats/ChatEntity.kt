@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.dataproviders.relational.chats
+package notifier.telega.notifytelega.dataprovider.relational.chats
 
 import java.util.*
 import javax.persistence.Column

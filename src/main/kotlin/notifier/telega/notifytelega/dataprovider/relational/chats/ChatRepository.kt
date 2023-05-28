@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.dataproviders.relational.chats
+package notifier.telega.notifytelega.dataprovider.relational.chats
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository

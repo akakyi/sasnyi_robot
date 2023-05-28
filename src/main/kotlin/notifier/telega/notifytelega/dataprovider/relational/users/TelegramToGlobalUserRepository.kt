@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.dataproviders.relational.users
+package notifier.telega.notifytelega.dataprovider.relational.users
 
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository

@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.dataproviders.telegram
+package notifier.telega.notifytelega.dataprovider.telegram
 
 import notifier.telega.notifytelega.config.SasnyRobot
 import org.springframework.stereotype.Service

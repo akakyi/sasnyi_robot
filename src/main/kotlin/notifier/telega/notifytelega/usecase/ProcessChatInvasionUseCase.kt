@@ -1,6 +1,6 @@
 package notifier.telega.notifytelega.usecase
 
-import notifier.telega.notifytelega.dataproviders.relational.users.TelegramToGlobalUserRepository
+import notifier.telega.notifytelega.dataprovider.relational.users.TelegramToGlobalUserRepository
 import notifier.telega.notifytelega.usecase.dto.CreateChatInDto
 import notifier.telega.notifytelega.usecase.dto.ProcessChatInvasionInDto
 import org.springframework.stereotype.Service

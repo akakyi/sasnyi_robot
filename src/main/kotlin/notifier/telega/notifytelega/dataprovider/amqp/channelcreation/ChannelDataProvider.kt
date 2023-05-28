@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.dataproviders.amqp.channelcreation
+package notifier.telega.notifytelega.dataprovider.amqp.channelcreation
 
 import org.springframework.amqp.core.MessageProperties
 import org.springframework.amqp.rabbit.core.RabbitTemplate

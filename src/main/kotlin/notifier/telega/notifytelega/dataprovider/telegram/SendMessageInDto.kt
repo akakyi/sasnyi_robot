@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.dataproviders.telegram
+package notifier.telega.notifytelega.dataprovider.telegram
 
 data class SendMessageInDto(
     val chatId: String,
