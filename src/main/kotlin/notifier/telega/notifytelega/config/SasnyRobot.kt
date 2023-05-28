@@ -1,7 +1,7 @@
 package notifier.telega.notifytelega.config
 
-import notifier.telega.notifytelega.service.ProcessChatInvasionUseCase
-import notifier.telega.notifytelega.service.dto.ProcessChatInvasionInDto
+import notifier.telega.notifytelega.usecase.ProcessChatInvasionUseCase
+import notifier.telega.notifytelega.usecase.dto.ProcessChatInvasionInDto
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Component
 import org.telegram.telegrambots.bots.TelegramLongPollingBot

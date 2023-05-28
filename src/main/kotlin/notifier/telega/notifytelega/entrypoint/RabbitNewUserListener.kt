@@ -1,8 +1,8 @@
 package notifier.telega.notifytelega.entrypoint
 
 import notifier.telega.notifytelega.entrypoint.dto.RabbitNewUserListenerRequest
-import notifier.telega.notifytelega.service.CreateUserUseCase
-import notifier.telega.notifytelega.service.dto.CreateUserInDto
+import notifier.telega.notifytelega.usecase.CreateUserUseCase
+import notifier.telega.notifytelega.usecase.dto.CreateUserInDto
 import org.slf4j.LoggerFactory
 import org.springframework.amqp.rabbit.annotation.RabbitListener
 import org.springframework.stereotype.Component

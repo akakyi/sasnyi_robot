@@ -1,4 +1,4 @@
-package notifier.telega.notifytelega.service.dto
+package notifier.telega.notifytelega.usecase.dto
 
 import org.telegram.telegrambots.meta.api.objects.Update
 

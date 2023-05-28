@@ -1,10 +1,10 @@
-package notifier.telega.notifytelega.service
+package notifier.telega.notifytelega.usecase
 
 import notifier.telega.notifytelega.dataproviders.amqp.channelcreation.ChannelDataProvider
 import notifier.telega.notifytelega.dataproviders.amqp.channelcreation.ChannelPayload
 import notifier.telega.notifytelega.dataproviders.relational.chats.ChatEntity
 import notifier.telega.notifytelega.dataproviders.relational.chats.ChatRepository
-import notifier.telega.notifytelega.service.dto.CreateChatInDto
+import notifier.telega.notifytelega.usecase.dto.CreateChatInDto
 import org.springframework.stereotype.Service
 import java.util.*
 
