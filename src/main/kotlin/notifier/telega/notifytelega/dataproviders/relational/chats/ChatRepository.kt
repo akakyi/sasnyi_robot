@@ -5,4 +5,8 @@ import org.springframework.stereotype.Repository
 import java.util.*
 
 @Repository
-interface ChatRepository : JpaRepository<ChatEntity, UUID>
+interface ChatRepository : JpaRepository<ChatEntity, UUID> {
+
+    fun findByGlobalChannelId(globalChannelId: UUID): ChatEntity?
+
+}
