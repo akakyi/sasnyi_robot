@@ -26,6 +26,7 @@ class CreateChatUseCase(
 
         channelDataProvider.sendChannelData(
             ChannelPayload(
+                //TODO айдишник канала создаётся тут. Это хуёво. Разнести: здесь просто уведомить о создании канала хаб, хаб уже отправляет инфу о связке с выставленным глобал-айдишником
                 globalChannelId = createdChat.globalChannelId,
                 globalUserId = inDto.globalUserId,
                 channelName = inDto.telegramChatName,
