@@ -12,9 +12,9 @@ open class ChatEntity(
     @Id
     val id: UUID,
 
-    @Column(name = "global_channel_id")
+    @field:Column(name = "global_channel_id")
     val globalChannelId: UUID,
 
-    @Column(name = "chat_id")
+    @field:Column(name = "chat_id")
     val chatId: String
 )

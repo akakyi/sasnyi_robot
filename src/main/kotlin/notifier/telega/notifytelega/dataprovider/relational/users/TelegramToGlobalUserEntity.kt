@@ -12,9 +12,9 @@ open class TelegramToGlobalUserEntity(
     @Id
     val id: UUID,
 
-    @Column(name = "telegram_user_id")
+    @field:Column(name = "telegram_user_id")
     val telegramUserId: String,
 
-    @Column(name = "global_user_id")
+    @field:Column(name = "global_user_id")
     val globalUserId: UUID
 )
