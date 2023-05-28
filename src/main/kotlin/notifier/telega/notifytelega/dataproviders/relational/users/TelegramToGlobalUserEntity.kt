@@ -8,7 +8,7 @@ import javax.persistence.Table
 
 @Entity
 @Table(name = "telegram_global_user_relation")
-open class TelegramToGlobalUserRelationEntity(
+open class TelegramToGlobalUserEntity(
     @Id
     val id: UUID,
 

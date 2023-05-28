@@ -5,8 +5,8 @@ import org.springframework.stereotype.Repository
 import java.util.*
 
 @Repository
-interface TelegramToGlobalUserRelationRepository : JpaRepository<TelegramToGlobalUserRelationEntity, UUID> {
+interface TelegramToGlobalUserRepository : JpaRepository<TelegramToGlobalUserEntity, UUID> {
 
-    fun findByTelegramUserId(telegramUserId: String): TelegramToGlobalUserRelationEntity?
+    fun findByTelegramUserId(telegramUserId: String): TelegramToGlobalUserEntity?
 
 }
