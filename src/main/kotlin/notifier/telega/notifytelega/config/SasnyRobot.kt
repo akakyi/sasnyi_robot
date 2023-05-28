@@ -11,10 +11,11 @@ import org.telegram.telegrambots.meta.api.objects.Update
 @Component
 class SasnyRobot(
     @Value("\${bot.token}") token: String,
+    @Value("\${bot.name}") private val botName: String,
     private val processChatInvasionUseCase: ProcessChatInvasionUseCase
 ) : TelegramLongPollingBot(token) {
 
-    override fun getBotUsername() = "fm_noti_bot"
+    override fun getBotUsername() = botName
 
     //TODO мб выкидывать событие?
     override fun onUpdateReceived(update: Update) {
