@@ -4,6 +4,7 @@ import notifier.telega.notifytelega.dataprovider.amqp.channelcreation.ChannelDat
 import notifier.telega.notifytelega.dataprovider.amqp.channelcreation.ChannelPayload
 import notifier.telega.notifytelega.dataprovider.relational.chats.ChatEntity
 import notifier.telega.notifytelega.dataprovider.relational.chats.ChatRepository
+import notifier.telega.notifytelega.model.ChannelType
 import notifier.telega.notifytelega.usecase.dto.CreateChatInDto
 import org.springframework.stereotype.Service
 import java.util.*
@@ -27,7 +28,8 @@ class CreateChatUseCase(
             ChannelPayload(
                 globalChannelId = createdChat.globalChannelId,
                 globalUserId = inDto.globalUserId,
-                channelName = inDto.telegramChatName
+                channelName = inDto.telegramChatName,
+                channelType = ChannelType.TELEGRAM
             )
         )
     }
